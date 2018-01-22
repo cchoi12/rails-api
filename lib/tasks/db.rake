@@ -17,6 +17,5 @@ namespace :db do
     do_task('db:seed')
     puts '#' * 80
     puts '## geocoding'
-    Doctor.find_each { |m| m.geocode && m.save! && sleep(0.25) }
   end
 end

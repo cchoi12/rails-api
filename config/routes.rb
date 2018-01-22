@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   concern :api_base do
-    resources :doctors do
+    resources :doctors, only: [:show, :index] do
       resources :comments
     end
   end

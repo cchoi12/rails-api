@@ -40,3 +40,5 @@ Doctor.where("(id % 2) > 0").all.update(
 Doctor.where("(id % 2) = 0").all.update(
   address: 'New York City, NY'
 )
+
+Doctor.find_each { |m| m.geocode && m.save! && sleep(0.25) }

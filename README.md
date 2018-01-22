@@ -14,8 +14,10 @@
 `- rspec`
 
 ##Requests
+GET | To get doctors index
+`root_url/v1/doctors`
 
-GET | To get doctors
+GET | To show specific doctor
 `root_url/v1/doctors/:doctor_id`
 
 GET | Index comments on doctors
