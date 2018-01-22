@@ -22,10 +22,10 @@ GET | Index comments on doctors
 `root_url/v1/doctors/:doctor_id/comments`
 
 GET | Show specific comment on doctor
-`/v1/doctors/:doctor_id/comments/:id`
+`root_url/v1/doctors/:doctor_id/comments/:id`
 
 POST| Create comment on doctor
-`/v1/doctors/:doctor_id/comments`
+`root_url/v1/doctors/:doctor_id/comments`
 
 Key | Value
 --- | ---
@@ -35,11 +35,11 @@ rating: | 1
 
 
 PATCH| Update Comment on a doctor
-`/v1/doctors/:doctor_id/comments/:id`
+`root_url/v1/doctors/:doctor_id/comments/:id`
 
 Key | Value
 --- | ---
 comment_body: | Updating this comment.
 
 DELETE| Delete Comment on a doctor
-`/v1/doctors/:doctor_id/comments/:id`
+`root_url/v1/doctors/:doctor_id/comments/:id`
