@@ -1,3 +1,16 @@
+# == Schema Information
+#
+# Table name: doctors
+#
+#  id         :bigint(8)        not null, primary key
+#  name       :string
+#  address    :string
+#  latitude   :float
+#  longitude  :float
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
 class Doctor < ApplicationRecord
   geocoded_by :address
   after_validation  :geocode, if: :address_changed?

@@ -25,6 +25,7 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'awesome_print'
   gem 'pry-rails'
+  gem 'annotate'
 end
 
 group :test do

@@ -1,3 +1,16 @@
+# == Schema Information
+#
+# Table name: doctors
+#
+#  id         :bigint(8)        not null, primary key
+#  name       :string
+#  address    :string
+#  latitude   :float
+#  longitude  :float
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
 require 'rails_helper'
 
 RSpec.describe Doctor, type: :model do
