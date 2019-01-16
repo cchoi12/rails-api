@@ -30,13 +30,13 @@ GET | To get doctors index
 GET | To show specific doctor
 `root_url/v1/doctors/:doctor_id`
 
-GET | Index comments on doctors
+GET | Index `Comments` on doctors
 `root_url/v1/doctors/:doctor_id/comments`
 
-GET | Show specific comment on doctor
+GET | Show specific `Comment` on doctor
 `root_url/v1/doctors/:doctor_id/comments/:id`
 
-POST| Create comment on doctor
+POST | Create a `Comment` on doctor
 `root_url/v1/doctors/:doctor_id/comments`
 
 Key | Value
@@ -46,12 +46,12 @@ author_id: | 2312
 rating: | 1
 
 
-PATCH| Update Comment on a doctor
+PATCH | Update a `Comment` on a doctor
 `root_url/v1/doctors/:doctor_id/comments/:id`
 
 Key | Value
 --- | ---
 comment_body: | Updating this comment.
 
-DELETE| Delete Comment on a doctor
+DELETE | Delete a `Comment` on a doctor
 `root_url/v1/doctors/:doctor_id/comments/:id`
