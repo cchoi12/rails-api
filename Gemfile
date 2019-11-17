@@ -9,7 +9,7 @@ end
 gem 'rails', '~> 5.1.4'
 gem 'pg', '~> 0.18'
 gem 'puma', '~> 3.7'
-gem 'loofah', '~> 2.2', '>= 2.2.2'
+gem 'loofah', '~> 2.3'
 gem 'rack-cors'
 gem 'geocoder'
 gem 'faker'
